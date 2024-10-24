@@ -361,8 +361,8 @@ if env["platform"] == "iphone":
     print_warning('Platform "iphone" has been renamed to "ios" in N84 4. Building for platform "ios".')
     env["platform"] = "ios"
 
-if env["platform"] in ["linux", "bsd", "x11"]:
-    if env["platform"] == "x11":
+if env["platform"] in ["linux", "bsd", "x11", "wayland"]:
+    if env["platform"] == "wayland":
         # Deprecated alias kept for compatibility.
         print_warning('Platform "x11" has been renamed to "linuxbsd" in N84 4. Building for platform "linuxbsd".')
     # Alias for convenience.
