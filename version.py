@@ -1,4 +1,4 @@
-short_name = "Nightmare"
+short_name = "N84"
 name = "Nightmare Engine"
 major = 4
 minor = 3
