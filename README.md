@@ -25,4 +25,3 @@
 The class reference is accessible from the Nightmare editor.
 
 ## Credit It To Photo From Pexel By Engin Akyurt
-https://www.pexels.com/photo/human-skull-2098602/
