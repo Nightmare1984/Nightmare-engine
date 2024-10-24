@@ -82,7 +82,6 @@ if sys.stdout.isatty() and sys.platform == "win32":
     except Exception as e:
         methods._colorize = False
         print_error(f"Failed to enable ANSI escape code support, disabling color output.\n{e}")
-
 # Scan possible build platforms
 
 platform_list = []  # list of platforms
